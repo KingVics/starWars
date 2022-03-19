@@ -1,0 +1,37 @@
+.crawMain {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 3rem 0 0;
+    /*  */
+}
+
+.crawContent {
+    display: flex;
+    justify-content: center;
+}
+.crawContent p {
+    width: 90%;
+    margin: 0 auto;
+    color: var(--color-primary);
+    line-height: 2;
+    font-size: var(--font-medium);
+    text-shadow: 1px 1px black;
+    text-rendering: optimizespeed;
+}
+
+.crawContent div {
+    
+    animation: move 30s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    33.33% {
+        transform: translateY(-80px);
+    }
+    /* 66.66% {
+        transform: translateY(-100px);
+    } */
+    100% {
+        transform: translateY(-150px);
+    }
+}

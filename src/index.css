@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Merriweather', serif;
+  
+}
+
+:root {
+  --color-primary: #FFD32D;
+  --color-secondary: #333;
+  --linear-primary: linear-gradient(270deg, #333 0%, #FFD32D 0%, #FFD32D 28.87%, #FFD3 100%);  
+  --font-Xtrabig: clamp(1.5rem, calc(0.68rem + 2.9vw), 3rem);
+  --font-big: clamp(1.20rem, calc(0.66rem + 2.71vw), 2.59rem);
+  --font-medium:  clamp(1.07rem, calc(0.64rem + 2.13vw), 2.16rem);
+  --font-small: clamp(0.84rem, calc(0.59rem + 1.28vw), 1.50rem);
+  --font-xtra-small: clamp(0.75rem, calc(0.55rem + 0.98vw), 1.25rem);
+}

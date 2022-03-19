@@ -1,0 +1,43 @@
+.MainHeader  {
+    background-image: url('../images/wall.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 11;
+}
+
+.MainSelectContainer {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.MainSelectContainer > div {
+    margin-left: 1rem;
+}
+
+
+select {
+    border: 1px solid var(--color-primary);
+    padding: max(.5vw, .1rem);
+    border-radius: 3px;
+    font-size: var(--font-small);
+    outline: 0;
+}
+
+button {
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    padding: max(1vw, .1rem);
+    background: var(--linear-primary);
+    font-size: var(--font-xtra-small);
+    cursor: pointer;
+
+}
